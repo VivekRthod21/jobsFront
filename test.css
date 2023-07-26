@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+/* .row {
+  border: 1px solid black;
+}
+.col-4 {
+  border: 1px solid grey;
+} */
+.col-md-4 img {
+  width: 14%;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+  padding: 5px;
+}
+
+  #login,#menu{
+    align-items:center;
+    display: flex;
+  }
+#login button{
+  background: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  height: 45px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 50px;
+}
+
+#content h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+}
+
+#category{
+  position: relative;
+}
+#category::after{
+  content: "";
+  width: 5%;
+  height: 6px;
+  border-radius: 10px;
+  /* background-color: var(--c-title-underline-color); */
+  background:  #864bd8;
+  position: absolute;
+  bottom: -25px;
+  left: 44%;
+}
+
+#content p{
+    text-align: center;
+}
+#content img{
+   
+    width: 5%;
+}
+
+.row  .search{
+    margin-top: 5%;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.row .search input{
+    height: 40%;
+    border: none;
+    border-left: 1px solid black;
+    padding: 2px;
+}
+.row  .search a:hover{
+    background-color: rgb(253, 220, 159);
+}
+.row  .search a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+    color: black;
+    transition:  background-color 0.5s linear;
+}
+.row .search a i{
+    padding-left: 5%;
+    margin-bottom: 5%;
+ }
+ #trend{
+    text-align: center;
+    margin-bottom: 5%;
+ }
+ #trend ul{
+    display: flex;
+    margin-left: 15%;
+ }
+ #trend ul li{
+  padding-top: 30px;
+    list-style: none; 
+ }
+ #trend ul li a{
+    text-decoration: none;
+    border: 1px solid #919090;
+    border-radius: 50px;
+    padding: 5px;   
+    color: black;
+}
+#work{
+    text-align: center;
+}
+#work h5{
+color: #0d8772;
+font-weight: 600;
+}
+#work h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#resume img{
+height: 10vh;
+width: 4vw;
+padding-bottom: 2%; 
+}
+#resume {
+  text-align: center;
+}
+#featured{
+  margin-bottom: 5%;
+  margin-top: 5%;
+  background-color: #f7e2fc;
+  padding-bottom: 5%;
+  border-radius: 10px;
+}
+#featured #see{
+   border: none;
+   background-color: rgb(95, 113, 252); 
+   padding: 25px; 
+   margin-top: 120px; 
+   margin-left: 40%;
+   width: 20%;
+   border-radius: 50px; 
+   font-size: 1rem;
+}
+#featured #head{
+  padding: 3%;
+  position: relative;
+}
+#featured #head button{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  background-color: rgb(252, 121, 74);
+}
+#featured #head .normal{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  background-color: rgb(253, 225, 213);
+}
+#cards .main-card{
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+#cards .card-body:hover{
+  box-shadow: 8px 8px 15px rgb(119, 118, 118);
+}
+#resume .card-body{
+  width: 21vw;
+  padding: 16px;
+  background-color: white;
+  border-radius: 10px;
+}
+#cards .card-body{
+  transition: 0.5s linear;
+  box-shadow: 2px 2px 10px rgb(133, 132, 132);
+  height: 100%;
+  padding: 10px;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+}
+#cards img{
+  border: 1px solid rgb(188, 187, 187);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+#category h1{
+  font-size: 3rem;
+}
+#price .price-card{
+  background-color: rgb(211, 249, 236);
+  border-radius: 5px;
+  transition: all .5s;
+  box-shadow: 1px 1px 10px gray;
+  
+}
+#price .price-card:hover{
+  transform: scale(1.2);
+  box-shadow: none;
+}
+#price .seeall{
+  border: none;
+  background-color:  #864bd8; 
+  height: 50px;
+  padding: 15px;
+  border-radius: 50px; 
+  font-size: 0.8rem;
+  color: white;
+}
+#price{
+  margin-top: 50vh;
+}
+#price h1{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.col-md-6 button:hover{
+  color: #864bd8; 
+}
+.col-md-6 button:hover::after{
+  content: "";
+  width: 50%;
+  height: 4px;
+  border-radius: 10px;
+  background:  #864bd8;
+  position: absolute;
+  bottom: -1px;
+  left: 25%; 
+  } 
+
+.col-md-6 button{
+  position: relative;
+}
+#news .box{
+  background: url('./img/newsBG.jpg');
+  backdrop-filter: brightness(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: 100px;
+  border-radius: 10px;
+
+}
+#footer a{
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+#footer a:hover{
+  color:#864bd8;
+}
+#footer img {
+  width: 14%;
+}
+#footer i{
+  padding: 18px;
+  font-size: 20px;
+}
+@media screen and (max-width: 574px) {
+  #menu #login{
+    width: 100%;
+ justify-content: center;
+ align-items: center;
+ }
+}
+
+@media screen and (max-width: 768px) {
+
+  #resume .card-body{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #resume img{
+    height: 15vh;
+    width: 10vw;
+    padding-bottom: 2%; 
+    }
+
+  #featured #see{
+    border: none;
+    background-color: rgb(95, 113, 252); 
+    padding: 20px; 
+    margin-top: 80px; 
+    margin-left: 40%;
+    width: 40%;
+    border-radius: 50px; 
+    font-size: 1rem;
+ }
+
+  #price .price-card{
+    margin-top: 10px;
+    width: 80%;
+  }
+  #trend ul li{
+    margin-bottom: 15px;
+}
+  #content h1{
+    font-size: 2.5rem;
+  }
+
+  #work h1{
+    font-size: 2rem;
+  }
+
+  #category h1{
+    font-size: 1.5rem;
+  }
+
+  #price h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
