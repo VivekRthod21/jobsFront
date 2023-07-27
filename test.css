@@ -5,12 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins';
 }
-/* .row {
-  border: 1px solid black;
-}
-.col-4 {
-  border: 1px solid grey;
-} */
+
 .col-md-4 img {
   width: 14%;
 }
